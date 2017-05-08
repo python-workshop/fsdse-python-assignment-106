@@ -1,9 +1,10 @@
 # Find two indices that sum to a specific value
 
-** Constraints **
+
+## Constraints
 
 * Is there exactly one solution?
-    * Yes
+   * Yes
 * Is there always a solution?
    * Yes
 * Is the array an array of ints?
