@@ -1,7 +1,7 @@
 # Find two indices that sum to a specific value
 
 
-## Constraints
+**Constraints**
 
 * Is there exactly one solution?
    * Yes
@@ -16,4 +16,5 @@
    * No
 * Can we assume this fits memory?
    * Yes
+   
 
