@@ -1,8 +1,8 @@
-def build( nums, target):
+def two_sum(nums, target):
     if nums is None or target is None:
-        return False
+        raise TypeError('nums or target cannot be None')
     if not nums:
-        return False
+        raise ValueError('nums cannot be empty')
     cache = {}
     for index, num in enumerate(nums):
         cache_target = target - num
@@ -10,4 +10,4 @@ def build( nums, target):
             return [cache[num], index]
         else:
             cache[cache_target] = index
-    return False
+    return None

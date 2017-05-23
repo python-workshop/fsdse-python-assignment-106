@@ -1,4 +1,4 @@
-# Find two indices that sum to a specific value
+# Given an array, find the two indices that sum to a specific value.
 
 
 **Constraints**
