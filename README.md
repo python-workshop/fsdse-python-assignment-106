@@ -24,10 +24,10 @@
 * Function name should be two_sum.
 * Input 
       
-       Type:  List
-       Value: [1,5,7,9,13,18]
+       Type:  List, Integer
+       Value: [9,12,5,1,13,18,-12,20,7], 16
        
 * Expected Output
 
-        Type:  Integer
-        Value: 16
+        Type:  List
+        Value: [0,8]
