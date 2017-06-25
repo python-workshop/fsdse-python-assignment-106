@@ -1,16 +1,16 @@
 ls = [9,12,5,1,13,18,-12,20,7]
 num = 16
 
-def two_sum(l1,temp):
-    l2 =[]
-    if len(l1) == 0:
+def two_sum(ls,num):
+    if len(ls) == 0:
          raise ValueError
-    for i in range(len(l1)):
-        for j in range(i,len(l1)):
-            if l1[i]+ l1[j] == temp:
-                l2.append(i)
-                l2.append(j)
-    return l2
+    ls1 = []
+    for i, item in enumerate(ls):
+        for j in range(i, len(ls)):
+            if ls[i] + ls[j] == num:
+                ls1.append(i)
+                ls1.append(j)
+    return ls1
 
 # two_sum(ls,num)
 # Output : [0, 8]
