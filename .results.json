@@ -1,1 +1,0 @@
-{"stats": {"passes": 1, "skipped": 0, "encoding": "UTF-8", "errors": 0, "failures": 0, "total": 1}, "results": [{"classname": "test.test_build:TestBuild", "type": "success", "name": "test_check_whether_number_or_target_cannot_be_null", "time": 0.010667800903320312}]}

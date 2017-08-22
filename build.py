@@ -1,24 +1,13 @@
 def two_sum(arg_list, arg_number):
-    try:
-        type(arg_list) is list
-        type(arg_number) is str
-        int(arg_number)
-        arg_list[0] is not None
-    except TypeError:
+    if arg_list is None:
         raise TypeError
-    except ValueError:
+    elif arg_list == []:
         raise ValueError
-    except IndexError:
-        raise ValueError
+    else:
+        pass
 
-    output = []
     for x,y in enumerate(arg_list):
         for k,l in enumerate(arg_list):
             if y + l == arg_number:
-                output.append(x)
-                output.append(k)
-                return output
+                return [x, k]
     return None
-
-
-print two_sum([1, 3, 2, -7, 5], 7)
