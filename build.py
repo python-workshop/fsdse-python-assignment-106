@@ -1,10 +1,10 @@
-def two_sum(a_list, n):
-    if a_list is None:
-        raise TypeError("Inputs can't be None")
-    if  a_list == []:
-        raise ValueError("Input list can't be empty")
+def two_sum(values, n):
+    if values is None:
+        raise TypeError()
+    if  values == []:
+        raise ValueError()
 
-    for a in a_list:
-        for b in a_list[a_list.index(a):]:
+    for i, a in enumerate(values):
+        for j, b in enumerate(values[i + 1: ]):
             if a + b == n:
-                return [a_list.index(a), a_list.index(b)]
+                return [i, j + i + 1]
